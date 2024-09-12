@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    padding-top: 20px;
+    padding-right: 100px;
+    padding-left: 30px;
+}
+.circulo-copo{
+    background: #017143;
+    position: absolute ;
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    clip-path: circle(600px at right 800px);
+}
+span{
+    color: #017143;
+    font-size: 80px;
+    font-weight: 600px;
+}
+h1{
+    font-size: 60px;
+    font-weight: 600px;
+}
+p{
+    font-size: 20px;
+    font-weight: 600px;
+    margin-top: 20px;
+    margin-bottom: 35px;
+}
+button{
+    background: #017143;
+    color: white;
+    padding: 15px;
+    width: 100px;
+    border-radius: 10px ;
+    border: none;
+}
+button:hover{
+    cursor: pointer;
+    
+}
+.logo-apelido{
+    width: 80px;
+    height: 80px;
+}
+.copao{
+    width: 300px;
+    bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    right: 10px;
+    z-index: 2;
+}
+.copinho-pequeno{
+    width: 80px;
+}
+.copinho-pequeno:active{
+    transform: translateY(-20px);
+    transition: transform 0.50s;
+}
+.conteudo{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.caixa-texto{
+    width: 600px;
+}
+.caixa-imagem{
+    width: 600px;
+    display:flex;
+    justify-content: flex-end;
+    margin-top: 250px;
+}
+.img-pequena{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}

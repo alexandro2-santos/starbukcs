@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="istyle.css">
+</head>
+<body>
+    <div class="circulo-copo bola"></div>
+
+    <img src="fotos/logo.png" alt="logo" class="logo-apelido">
+
+    <h1>i'ts not just coffe it's<span>starbucks</span></h1>
+
+    <div class="conteudo">
+        <div class="caixa-texto">
+            <p>esse site nao e um site oficial,
+                e um site para testar conhecimentos 
+                nas tecnoligias e linguagem de programaçao
+                html ,css e java escript.
+            </p>
+            <button>acessar</button>
+        </div>
+        <div class="caixa-imagem">
+            <img class="copao" src="fotos/img1.png" alt="img1" >
+        </div>
+    </div>
+
+    <div class="img-pequena">
+        <br>
+        <br>
+        <br>
+        <br>
+        <br> 
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <img src="fotos/img-pequena1.png" alt="1" class="copinho-pequeno verde">
+        <img src="fotos/img-pequena2.png" alt="2" class="copinho-pequeno amarelo">
+        <img src="fotos/img-pequena3.png" alt="3" class="copinho-pequeno rosa">
+    </div>
+    <script>
+        let circulocopo = document.querySelector(".bola");
+        let copao = document.querySelector(".copao");
+        let verde = document.querySelector(".verde");
+        let amarelo = document.querySelector(".amarelo");
+        let rosa =document.querySelector(".rosa");
+        
+        verde.addEventListener("click",()=>{
+            copao.src="fotos/img1.png";
+           circulocopo.style.background="#017143";
+        });
+        
+        amarelo.addEventListener("click",()=>{
+            copao.src="fotos/img2.png";
+            circulocopo.style.background="#eb7495";
+        });
+        
+        rosa.addEventListener("click",()=>{
+            copao.src="fotos/img3.png";
+            circulocopo.style.background="#d725b1";
+        });</script>
+</body>
+</html>
